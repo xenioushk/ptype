@@ -2,11 +2,5 @@ language: node_js
 node_js:
  - "node"
 
-env:
-  global:
-    - COVERALLS_PARALLEL=true
-jobs:
-  include:
-    - script: npm run coverage
-notifications:
-  webhooks: https://coveralls.io/webhook
+after_success:
+  - 'cat ./coverage/lcov.info | ./node_modules/.bin/coveralls'
