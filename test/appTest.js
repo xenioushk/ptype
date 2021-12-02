@@ -1,7 +1,7 @@
 import chai from "chai"
 
 import addNumbers from '../app.js';
-import subNumbers from '../sub.js';
+// import subNumbers from '../sub.js';
 
 const assert = chai.assert;
 
