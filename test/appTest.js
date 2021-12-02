@@ -1,6 +1,6 @@
 import chai from "chai"
 
-import addNumbers from '../app.js';
+import addNumbers from '../App.js';
 // import subNumbers from '../sub.js';
 
 const assert = chai.assert;
