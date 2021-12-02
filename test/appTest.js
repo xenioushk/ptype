@@ -1,6 +1,4 @@
 const assert = require("chai").assert;
-const X = require('../app');
-
 
 describe("Our Testing Container", function() {
 
